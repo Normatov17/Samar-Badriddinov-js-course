@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>#7 Ma'lumot turlari</title>
+    </head>
+    <body>
+        
+
+        <script>
+            "use strict"
+
+
+
+            //  JavaScript Data Types --- JavaScript ma'lumotlar turlari
+
+            /* primitive----------- Asosiy Data
+            1. Boolean 
+            2. Null 
+            3. Undefined
+            4. Number
+            5. String
+            6. Sybol
+            */ 
+
+            /*object---------------- Global Data
+            1. Array
+            2. Object
+            3. Function
+            4. RegEx
+            5. Date 
+            */
+
+            // -------------------------NUMBER-----------------------------------
+
+            let number = 10.2; // Data Type = Number
+            // Number 2 turga bo'linadi (Infinity va NaN)
+
+            console.log(-8 / 0);  // Infinity
+            // Infinity qandey kelib chiqadi desak biz qandeydir bir matematikada mumkinmas narsani qilsak (Infinity) kelib chiqadi
+
+            console.log("Samar" * 8);  // NaN
+            // Biz 2ta boshqa boshqa ma'lumotni bir biriga qo'shib yoki ko'patrsak (NaN) chiqadi.
+
+
+
+            // ------------------------STRING---------------------------------------
+            const ism = "Davlatbek";
+            console.log(ism);
+
+
+
+
+            // ----------------------------BOOLEAN-------------------------------------
+            // Boolean true yoki false qaytaradi.
+
+            const isMarried = true;
+
+
+
+
+            //  ---------------------------OBJECT-----------------------------------------
+            const thief =  {
+                // key:  value
+                age: 30, // number
+                Jacked: "black", // string
+                isLong: "false", // boolean
+            };
+
+            console.log(thief.Jacked);
+            console.log(thief["Jacked"]);
+
+
+
+            
+            //-----------------------------ARRAY----------------------------------------------
+            const colors = ["red", "green", "black", "white"];
+
+        </script>
+    </body>
+</html>
